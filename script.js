@@ -72,6 +72,14 @@ else{
 const num4 = 22;
 num4 > 0 ? console.log("Big Number") : console.log("Small Number");
 
-const num5 = 51;
-num5 > 90 && num5 <= 95 ? console.log("You Are Gread A") :
+const num5 = 91;
+num5 >= 96? console.log("YOU ARE TOP"):  num5 > 90 && num5 <= 95 ? console.log("You Are Gread A") :
 num5 > 50 ? console.log("This is a Pass Number") : num5 < 0 ? console.log("This is Not A valid Number") : console.log("You are Fail");
+
+
+// const mark = 20;
+
+// mark > 50 ? console.log('You are Pass') : console.log("You are not upto the pass mark");
+
+// const statuscheck = -200;
+// statuscheck > 0 ? console.log("positive Number") : statuscheck < 0 ? console.log("Negative Nuber") : console.log("Zero Number");
